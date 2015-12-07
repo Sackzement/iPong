@@ -1,8 +1,9 @@
 
 #include <iostream>
+#include <Engine/Engine.h>
 #include <SDL/SDL.h>
 
-
+Engine engine;
 SDL_Window* window;
 SDL_Renderer* renderer;
 Uint32 ticks;
