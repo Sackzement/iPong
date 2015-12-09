@@ -1,9 +1,8 @@
 
 #include <iostream>
-#include <Engine/Engine.h>
-#include <SDL/SDL.h>
+#include <Ngin/Ngin.h>
 
-Engine engine;
+Ngin ngin;
 SDL_Window* window;
 SDL_Renderer* renderer;
 Uint32 ticks;
