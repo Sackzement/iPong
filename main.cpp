@@ -2,7 +2,6 @@
 #include <iostream>
 #include <Ngin/Ngin.h>
 
-Ngin ngin;
 SDL_Window* window;
 SDL_Renderer* renderer;
 Uint32 ticks;
