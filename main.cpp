@@ -1,4 +1,5 @@
 
+#include <SDL/SDL.h>
 #include <iostream>
 //#include <Ngin/Ngin.h>
 #include <Ngin/libs.h>
@@ -11,6 +12,7 @@ Uint32 ticks;*/
 
 int main(int argc, char** argv)
 {
+    Uint32 ul;
     initLibs();
 	std::cout << sizeof(void*) << std::endl;
 /*
